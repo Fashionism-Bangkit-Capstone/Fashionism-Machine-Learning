@@ -1,0 +1,11 @@
+matplotlib
+numpy
+pandas
+scipy
+xgboost
+scikit-learn
+tensorflow
+Pillow
+graphviz
+pyglet
+scikit-image
