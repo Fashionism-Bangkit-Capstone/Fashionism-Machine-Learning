@@ -36,6 +36,16 @@
   - [Flask App and API](#flask-app-and-api)
 - [Bibliography](#bibliography)
 
+# How to reproduce the code deployment.
+
+1. Copy the model deployment 
+
+<pre>
+```bash
+git clone -b model-deployment https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning.git
+```
+</pre>
+
 # TOP_BOTTOM_MODELLING Documentation
 ![Modelling](Images/Fashionism%20Roadmap%20(1).png)
 This code performs the task of constructing a dataset, downloading images, and training a model for classifying top and bottom clothing items. The documentation provides an overview of the code structure and its functionality. Full python notebook can be seen [here](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/TOP_BOTTOM_MODELLING.ipynb)
