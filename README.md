@@ -38,7 +38,7 @@
 
 # How to reproduce the code deployment.
 
-1. Copy the model deployment 
+1. Copy the model deployment  branch
 
 <pre>
 ```bash
