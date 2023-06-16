@@ -267,6 +267,16 @@ The code proceeds to load pre-trained models and data needed for image recommend
 
 ## Flask App and API
 
+This is the tools we used to deploy this python file.
+
+### Deployment
+
+ Tools | |
+| --- | --- |
+| [Google Compute Engine](https://cloud.google.com/compute) | e2-micro (2 vCPUs, 1 GB memory, 10 GB storage, Debian GNU/Linux 11 (bullseye)) |
+| [Google Cloud SQL](https://cloud.google.com/sql) | MySQL 5.7 |
+| [PM2](https://pm2.keymetrics.io/) | Advanced, production process manager for Node.js |
+
 The code initializes a Flask application and defines the following routes and functions:
 
 ### Route: `/`
