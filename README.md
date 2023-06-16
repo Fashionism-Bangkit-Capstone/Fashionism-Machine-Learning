@@ -6,7 +6,7 @@
 | [model-development](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-development) | This branch contains the model development process. |
 | [model-deployment](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-deployment) | This branch contains the model deployment process. |
 
-This Machine Learning Project is possible by this people and organization.
+**This Machine Learning Project is possible by this people and organization.**
 | Description| Explanation|
 | --- | --- |
 | IQON3000 Dataset. [Download](https://drive.google.com/file/d/1sTfUoNPid9zG_MgV--lWZTBP1XZpmcK8/view)| (From the dataset owner) We created a new large dataset for personalized clothing matching. In particular, we crawled our data from the popular fashion web service Iqon (www.iqon.jp), where users are encouraged to create outfits by coordinating fashion items from complementary categories (e.g., tops, bottoms, shoes and accessaries). The created IQON3000 contains 308,347 outfits created by 3,568 users with 672,335 fashion items.|
@@ -15,6 +15,9 @@ This Machine Learning Project is possible by this people and organization.
 | VGG-16 CNN Architecture| They tested the architecture so we can copy their CNN structure|
 | BANGKIT 2023| Thankyou for a lot of skills we gained through this program, we can't give enough thanks for this program|
 | The frameworks creator| As someone without an IT background who started learned programming on my own, I truly appreciate and want to express my gratitude to all the companies and individuals who have developed frameworks that enable newcomers like me to create machine learning models without delving too deeply into the complex mathematical implementations in the code.|
+
+# Machine Learning Processes Diagram
+[ML Process Diagram](Images/ML.png)
 
 # **Table of contents**
 
