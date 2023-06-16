@@ -54,7 +54,7 @@ This section focuses on loading and processing the dataset for training the mode
 In this section, the code downloads the images corresponding to the URLs in the dataset. It defines a function to download an image given a URL and local directory. It creates a directory called "dataset" and uses multithreading to download images concurrently. The progress of the download tasks is tracked, and the completed count is displayed.
 
 ### Modeling
-![VGG Structure](Images/1_NNifzsJ7tD2kAfBXt3AzEg.webp)
+![VGG Structure](Images/1_NNifzsJ7tD2kAfBXt3AzEg.webp)  
 This section focuses on training the classification model for top and bottom clothing items. It splits the dataset into training and testing sets. It also creates an ImageDataGenerator for data augmentation and preprocessing. The VGG16 pre-trained model is loaded and frozen as the base model. The code then constructs the model architecture by adding additional layers on top of the base model. The model is compiled with appropriate optimizer and loss functions. Early stopping is implemented to prevent overfitting during training. The model is trained on the training set and evaluated on the test set. Finally, the trained model is saved as "top_down_new_model.h5".
 
 ## Usage and Results
