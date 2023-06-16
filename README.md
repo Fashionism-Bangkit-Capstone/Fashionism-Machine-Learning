@@ -8,7 +8,7 @@
 
 # TOP_BOTTOM_MODELLING Documentation
 ![Modelling](Images/Fashionism%20Roadmap%20(1).png)
-This code performs the task of constructing a dataset, downloading images, and training a model for classifying top and bottom clothing items. The documentation provides an overview of the code structure and its functionality.
+This code performs the task of constructing a dataset, downloading images, and training a model for classifying top and bottom clothing items. The documentation provides an overview of the code structure and its functionality. Full python notebook can be seen [here](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/TOP_BOTTOM_MODELLING.ipynb)
 
 ## Code Overview
 The code is written in Python and runs in a Jupyter Notebook environment. It consists of several sections, each performing a specific task. Here is an overview of each section:
