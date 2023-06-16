@@ -41,10 +41,14 @@
 1. Copy the model deployment  branch
 
 <pre>
-```bash
 git clone -b model-deployment https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning.git
-```
 </pre>
+
+2. Run the App.py using
+<pre>
+python App.py
+</pre>
+3. Use API tester like hoppscotch to test the algorithm.
 
 # TOP_BOTTOM_MODELLING Documentation
 ![Modelling](Images/Fashionism%20Roadmap%20(1).png)
