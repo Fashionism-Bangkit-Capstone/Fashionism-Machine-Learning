@@ -16,7 +16,7 @@
 | The frameworks creator| As someone without an IT background who started learned programming on my own, I truly appreciate and want to express my gratitude to all the companies and individuals who have developed frameworks that enable newcomers like me to create machine learning models without delving too deeply into the complex mathematical implementations in the code.|
 
 # Machine Learning Processes Diagram
-[ML Process Diagram](Images/ML.png)
+![ML Process Diagram](Images/ML.png)
 
 # **Table of contents**
 
