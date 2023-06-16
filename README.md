@@ -78,7 +78,7 @@ This concludes the documentation for the provided code.
 
 # Initial Recommendation Documentation (Initial_recommendation_algorithm.ipynb)
 
-This recommendation is the main foundation of the full deployment docummentation, here we test the algorithm on Google Colab Environment. The full ipynb files can be seen here [TEST THIS](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/Initial_Recommendation_Algorithm.ipynb).
+This recommendation is the main foundation of the full deployment docummentation, here we test the algorithm on Google Colab Environment. The full ipynb files can be seen [here](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/Initial_Recommendation_Algorithm.ipynb).
 
 ## Importing the library
 The code includes multiple import statements that import various libraries and modules. Here is a summarized documentation of the libraries and modules imported:
