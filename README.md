@@ -273,8 +273,6 @@ The code initializes a Flask application and defines the following routes and fu
 
 The Flask application is then run if the script is executed directly.
 
----
-
 This code implements a Flask application that allows users to upload an image of a clothing item and receive recommendations for complementary clothing items (top-bottom or bottom-top combinations). The recommendations are based on pre-trained models for predicting clothing categories and extracting features from images. The application uses nearest neighbor search to find the most similar items in the feature space and provides their prices and links for further exploration.
 
 # Bibliography
