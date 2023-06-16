@@ -6,6 +6,24 @@
 | [model-development](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-development) | This branch contains the model development process. |
 | [model-deployment](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-deployment) | This branch contains the model deployment process. |
 
+# Table of contents
+
+- [**TABLE OF CONTENTS**](#table-of-contents)
+- [TOP_BOTTOM_MODELLING Documentation](#top_bottom_modelling-documentation)
+  - [Code Overview](#code-overview)
+  - [Usage and Results](#usage-and-results)
+- [Initial Recommendation Documentation (Initial_recommendation_algorithm.ipynb)](#initial-recommendation-documentation-initial_recommendation_algorithmipynb)
+  - [Importing the library](#importing-the-library)
+  - [Download and Preparing the dataset](#download-and-preparing-the-dataset)
+  - [Initial modelling to test the recommendtion algorithm](#initial-modelling-to-test-the-recommendtion-algorithm)
+  - [Feature Extraction Testing](#feature-extraction-testing)
+  - [Testing the recommendation model](#testing-the-recommendation-model)
+- [Flask Deployment Documentation (App.py)](#flask-deployment-documentation-apppy)
+  - [Importing Libraries and Modules](#importing-libraries-and-modules)
+  - [Functions](#functions)
+  - [Model and Data Loading](#model-and-data-loading)
+  - [Flask App and API](#flask-app-and-api)
+
 # TOP_BOTTOM_MODELLING Documentation
 ![Modelling](Images/Fashionism%20Roadmap%20(1).png)
 This code performs the task of constructing a dataset, downloading images, and training a model for classifying top and bottom clothing items. The documentation provides an overview of the code structure and its functionality. Full python notebook can be seen [here](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/TOP_BOTTOM_MODELLING.ipynb)
