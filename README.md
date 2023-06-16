@@ -6,9 +6,18 @@
 | [model-development](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-development) | This branch contains the model development process. |
 | [model-deployment](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-deployment) | This branch contains the model deployment process. |
 
-# Table of contents
+This Machine Learning Project is possible by this people and organization.
+| Description| Explanation|
+| --- | --- |
+| IQON3000 Dataset. [Download](https://drive.google.com/file/d/1sTfUoNPid9zG_MgV--lWZTBP1XZpmcK8/view)| (From the dataset owner) We created a new large dataset for personalized clothing matching. In particular, we crawled our data from the popular fashion web service Iqon (www.iqon.jp), where users are encouraged to create outfits by coordinating fashion items from complementary categories (e.g., tops, bottoms, shoes and accessaries). The created IQON3000 contains 308,347 outfits created by 3,568 users with 672,335 fashion items.|
+| [Web Scraper - Free Web Scraping](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn)| This free extension is used to gather link to improve the datasets.|
+| ResNet50 by Microsoft| Base model for feature extraction|
+| VGG-16 CNN Architecture| They tested the architecture so we can copy their CNN structure|
+| BANGKIT 2023| Thankyou for a lot of skills we gained through this program, we can't give enough thanks for this program|
+| The frameworks creator| As someone without an IT background who started learned programming on my own, I truly appreciate and want to express my gratitude to all the companies and individuals who have developed frameworks that enable newcomers like me to create machine learning models without delving too deeply into the complex mathematical implementations in the code.|
 
-- [**TABLE OF CONTENTS**](#table-of-contents)
+# **Table of contents**
+
 - [TOP_BOTTOM_MODELLING Documentation](#top_bottom_modelling-documentation)
   - [Code Overview](#code-overview)
   - [Usage and Results](#usage-and-results)
@@ -23,6 +32,7 @@
   - [Functions](#functions)
   - [Model and Data Loading](#model-and-data-loading)
   - [Flask App and API](#flask-app-and-api)
+- [Bibliography](#bibliography)
 
 # TOP_BOTTOM_MODELLING Documentation
 ![Modelling](Images/Fashionism%20Roadmap%20(1).png)
@@ -66,7 +76,7 @@ This concludes the documentation for the provided code.
 
 # Initial Recommendation Documentation (Initial_recommendation_algorithm.ipynb)
 
-This recommendation is the main foundation of the full deployment docummentation, here we test the algorithm on Google Colab Environment. The full ipynb files can be seen here [TEST THIS](google.com).
+This recommendation is the main foundation of the full deployment docummentation, here we test the algorithm on Google Colab Environment. The full ipynb files can be seen here [TEST THIS](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/blob/main/Initial_Recommendation_Algorithm.ipynb).
 
 ## Importing the library
 The code includes multiple import statements that import various libraries and modules. Here is a summarized documentation of the libraries and modules imported:
@@ -263,6 +273,12 @@ The Flask application is then run if the script is executed directly.
 
 ---
 
-This code implements a Flask application that allows users to upload an image of a clothing item and receive recommendations for
+This code implements a Flask application that allows users to upload an image of a clothing item and receive recommendations for complementary clothing items (top-bottom or bottom-top combinations). The recommendations are based on pre-trained models for predicting clothing categories and extracting features from images. The application uses nearest neighbor search to find the most similar items in the feature space and provides their prices and links for further exploration.
 
- complementary clothing items (top-bottom or bottom-top combinations). The recommendations are based on pre-trained models for predicting clothing categories and extracting features from images. The application uses nearest neighbor search to find the most similar items in the feature space and provides their prices and links for further exploration.
+# Bibliography
+
+- Han, X., Wu, Z., Jiang, Y., & Davis, L. S. (2017). Learning Fashion Compatibility with Bidirectional LSTMs. In *ACM Multimedia*.
+- [Sagar, D. et al., 2020]: Sagar, D., Garg, J., Kansal, P., Bhalla, S., Shah, R. R., & Yu, Y. (2020). *PAI-BPR: Personalized Outfit Recommendation Scheme with Attribute-wise Interpretability*. arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2008.01780](https://doi.org/10.48550/arxiv.2008.01780).
+- [\@tensorflow2015-whitepaper]: Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dandelion Mané, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. *TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems*. 2015. Software available from [tensorflow.org](https://www.tensorflow.org/).
+- [\@van1995python]: Guido Van Rossum and Fred L Drake Jr. *Python reference manual*. 1995. Centrum voor Wiskunde en Informatica Amsterdam.
+- [\@opencv_library]: G. Bradski. *The OpenCV Library*. Dr. Dobb's Journal of Software Tools, 2000.
