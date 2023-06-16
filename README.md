@@ -19,7 +19,7 @@
 ![ML Process Diagram](Images/ML.png)
 
 # **Table of contents**
-
+- [How to reproduce the code deployment](#how-to-reproduce-the-code-deployment)
 - [TOP_BOTTOM_MODELLING Documentation](#top_bottom_modelling-documentation)
   - [Code Overview](#code-overview)
   - [Usage and Results](#usage-and-results)
