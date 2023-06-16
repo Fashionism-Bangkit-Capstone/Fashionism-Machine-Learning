@@ -48,6 +48,8 @@ This concludes the documentation for the provided code.
 
 # Flask Deployment Documentation (App.py)
 
+The full code can be seen on [This branch](https://github.com/Fashionism-Bangkit-Capstone/Fashionism-Machine-Learning/tree/model-deployment).
+
 ## Importing Libraries and Modules
 
 The code begins by importing the necessary libraries and modules for the application. The imported modules include:
